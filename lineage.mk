@@ -10,6 +10,7 @@ PRODUCT_DEVICE := gts28vewifi
 PRODUCT_MODEL := SM-T713
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+PRODUCT_SKIP_FINGERPRINT_FROM_FILE := true
 
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
